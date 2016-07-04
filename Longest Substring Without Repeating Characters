@@ -38,13 +38,10 @@ public class lengthOfLongestString {//暴力解法太慢， eclipse上跑的起�
 		return true;
 		}
 	}
-	
-	／／快速解法
-	public class Solution {
 
-
+／／快速解法
+public class Solution {
     public static int lengthOfLongestSubstring(String s) {
-
         int ans = 0;
         int[] index = new int[128];
         for (int j = 0, i = 0; j < s.length(); j++) {
